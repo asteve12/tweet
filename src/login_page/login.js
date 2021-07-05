@@ -19,12 +19,21 @@ function Login() {
           mobile,and tablet version not available coming soon
   </TextLoop>*/}
 
-        <Wave
-          text='Mobile Version Not Available'
-          effect='stretch'
-          effectChange='2'
-        />
+        <div>
+          <Wave
+            text='Mobile Version Not Available'
+            effect='stretch'
+            effectChange='2'
+          />
+        </div>
+
+        <div id='home-link-wrapper'>
+          <Link to='/home' id='home-link'>
+            <div> visit home</div>
+          </Link>
+        </div>
       </div>
+
       {/*login body*/}
       <div className='login-body'>
         <div id='login-image-container'>

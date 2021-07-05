@@ -100,6 +100,7 @@
   font-style: italic;
   text-transform: capitalize;
   display: none;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 1271px) {
@@ -115,4 +116,22 @@
   .login-body {
     display: flex;
   }
+}
+
+#home-link {
+  padding: 2%;
+
+  background-color: white;
+
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#home-link-wrapper {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
 }
