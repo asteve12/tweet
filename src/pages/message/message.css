@@ -1,0 +1,142 @@
+.message-page-container {
+  width: 100%;
+
+  height: 100vh;
+  display: flex;
+  border-left: solid 1px grey;
+}
+/**************first section**************/
+
+#first-section {
+  width: 40%;
+  height: 100%;
+  border-right: solid 1px grey;
+}
+#first-section-1 {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgb(196, 181, 181);
+}
+#first-section-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  color: rgba(29, 161, 242, 1);
+}
+
+#first-section-2 span {
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#first-section-2 span:hover {
+  background-color: rgb(213, 228, 230);
+}
+
+#first-section-3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 40px;
+  border-bottom: solid 1px rgb(196, 181, 181);
+  justify-content: space-between;
+  background-color: white;
+}
+#first-section-3:hover {
+  background-color: rgba(235, 224, 224, 0.411);
+  cursor: pointer;
+}
+
+#first-section-4 {
+  width: 100%;
+
+  padding: 2%;
+  padding-bottom: 2%;
+  border-bottom: solid 1px;
+}
+#first-sub-section-4 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+#first-sub-section-4-1 {
+  width: 15%;
+  height: 100%;
+  background-color: rgba(196, 193, 193, 0.789);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#first-sub-section-4-2 {
+  width: 70%;
+
+  height: 100%;
+  background-color: rgba(196, 193, 193, 0.789);
+  border: none;
+  outline: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-left: 2%;
+}
+
+#first-section-5 {
+  width: 100;
+  padding: 2%;
+  display: flex;
+  border-bottom: solid 1px rgb(196, 181, 181);
+}
+#first-section-5:hover {
+  background-color: rgba(235, 224, 224, 0.411);
+  cursor: pointer;
+}
+#first-section-sub-5-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: yellow;
+}
+
+#first-section-sub-5-4 {
+  display: flex;
+}
+
+#first-section-sub-5-1 {
+  display: flex;
+  justify-content: space-between;
+}
+/************** end of first section**************/
+
+#second-section {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#second-section-new {
+  background-color: rgb(76, 172, 237);
+  color: white;
+  padding: 2%;
+  border-radius: 20px;
+  border: none;
+}
+
+#img_section_2 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(76, 172, 237);
+  border-radius: 50px;
+}

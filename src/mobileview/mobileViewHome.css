@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+#mobileHomeWrapper {
+  padding: 2%;
+}
+
+.mobileHomeContainer {
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+}
+
+#profile-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: blue;
+}
+#mobile-profile-photo-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.mobileHomeHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+#current-page {
+  font-size: 1em;
+}
+
+#mobileHomeHeaderFirstSection {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#mobileHomeHeaderSecondSection {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* end of mobile Home Header Beginning*/
+#mobile-tweet-container {
+  display: flex;
+  justify-content: space-between;
+  /*height: 500px;*/
+  min-height: 0px;
+
+  width: 100%;
+
+  height: auto;
+  align-items: center;
+}
+
+#mobile-tweet-container-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: yellow;
+  display: flex;
+  align-self: flex-start;
+}
+#mobile-tweet-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+#mobile-tweet-text {
+  height: auto;
+
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-bottom: 0px;
+}
+
+#mobile-tweet-img-container {
+  width: 100%;
+  height: 50%;
+
+  border-radius: 30px;
+  display: block;
+  justify-content: center;
+}
+
+#mobile-phone-tweet-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  display: block;
+}
+#mobile-tweet-icons-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+#mobile-tweet-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  height: 10px;
+  margin-bottom: 3%;
+}
+
+#mobile-tweet-container-footer {
+  display: flex;
+  width: 100%;
+}
+#mobile-view-horizontal-rule {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+}
+#mobile-bottom-header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding-left: 2%;
+  padding-right: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+  background-color: white;
+  z-index: 100;
+}
+
+@media (max-width: 500px) {
+  #mobile-bottom-header {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 500px) {
+  #mobileHomeWrapper {
+    display: none;
+  }
+}
+
+#mobile-view-tweet-container-header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+  font-size: 1em;
+  overflow: hidden;
+  height: 50px;
+  background-color: white;
+}
+#mobile-tweet-more {
+  width: 5%;
+}
+
+@media only screen and (max-width: 226px) {
+  #mobile-view-tweet-container-header {
+    flex: 4;
+  }
+  #mobile-tweet-more {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #mobile-tweet-name {
+    width: 100%;
+  }
+  #mobile-tweet-img-container {
+    width: 100%;
+    height: 50%;
+  }
+  #tweet-text-container {
+    width: 100%;
+  }
+  #mobile-tweet-text {
+    width: 88%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #mobile-tweet-text {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 264px) {
+  #mobile-tweet-text {
+    width: 70%;
+  }
+}
+
+#tweet-text-container {
+  width: 100%;
+
+  font-size: 1em;
+}
+
+@media (max-width: 316px) {
+  #mobile-tweet-name {
+    width: 95%;
+  }
+  #mobile-tweet-img-container {
+    width: 100%;
+    height: 35%;
+    min-height: 30px;
+  }
+  #tweet-text-container {
+    width: 95%;
+  }
+}
+@media (max-width: 244px) {
+  #mobile-tweet-img-container {
+    width: 100%;
+    height: 20%;
+  }
+}
+@media (max-width: 172px) {
+  #mobile-tweet-img-container {
+    width: 100%;
+    height: 17%;
+  }
+}
+
+@media (max-width: 172px) {
+  #mobile-tweet-img-container {
+    width: 100%;
+    height: 17%;
+  }
+}
+
+#mobile-view-header-horizontal-line {
+  border: solid 1px rgb(237, 230, 230);
+  width: 100%;
+
+  margin-bottom: 1.5%;
+}
+
+#comment-count {
+  font-size: 0.9em;
+}
+
+#comment-icon {
+  width: 0.8em;
+}
+
+#retweet-icon {
+  width: 0.8em;
+}
+
+#retweet-counter {
+  font-size: 0.9em;
+}
+
+#love-counter {
+  font-size: 0.9em;
+}
+#love-icon {
+  width: 0.8em;
+}
+#arrow-icon {
+  width: 0.8em;
+}
+
+#circle-fixed-btn {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(29, 161, 242, 1);
+  border-radius: 50px;
+  position: fixed;
+  right: 0px;
+  margin-right: 2%;
+  margin-top: 1%;
+  box-shadow: 0px 0px 2px 2px rgb(202, 197, 197);
+}

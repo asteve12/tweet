@@ -1,0 +1,63 @@
+#sign-in-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#login-content-box {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+#sgnin-svg-wrapper {
+  height: 80px;
+  width: 80px;
+  color: rgba(29, 161, 242, 1);
+}
+#signin-input-username {
+  width: 60%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+#signin-input-password {
+  width: 60%;
+  padding: 2%;
+}
+#button-container {
+  display: flex;
+  width: 100%;
+}
+
+#login-btn {
+  width: 60%;
+  max-width: 500px;
+
+  padding: 3%;
+  border-radius: 25px;
+  border: 0px;
+  background-color: rgba(29, 161, 242, 1);
+  color: white;
+}
+
+#overlay-text-container-username {
+  color: rgba(29, 161, 242, 1);
+  position: absolute;
+  margin-left: 1%;
+  font-size: 0.9em;
+}
+
+#overlay-text-container-password {
+  position: absolute;
+  margin-left: 1%;
+  font-size: 0.8em;
+}
+
+#signin-forgot-password-container {
+  font-size: 0.8em;
+  padding: 2%;
+  padding-left: 15%;
+}
