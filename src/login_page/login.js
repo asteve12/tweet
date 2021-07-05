@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Modal from '../component/modal/Modal';
 import './login.css';
 import { Link } from 'react-router-dom';
+import TextLoop from 'react-text-loop';
+import { Wave } from 'react-animated-text';
 
 function Login() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -12,6 +14,17 @@ function Login() {
 
   return (
     <div>
+      <div id='screen-not-available'>
+        {/*image <TextLoop springConfig={{ stiffness: 180, damping: 8 }}>
+          mobile,and tablet version not available coming soon
+  </TextLoop>*/}
+
+        <Wave
+          text='Mobile Version Not Available'
+          effect='stretch'
+          effectChange='2'
+        />
+      </div>
       {/*login body*/}
       <div className='login-body'>
         <div id='login-image-container'>
