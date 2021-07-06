@@ -1,4 +1,4 @@
-twiiter clone
+A twiiter clone
 
 # Getting Started with Create React App
 
