@@ -7,7 +7,7 @@
 #login-image-container {
   width: 50%;
   height: 90vh;
-  background-color: blue;
+  background-color: rgba(29, 161, 242, 1);
   display: flex;
   align-items: center;
   justify-content: center;
