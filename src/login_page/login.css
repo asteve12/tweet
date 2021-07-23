@@ -1,7 +1,7 @@
 .login-body {
   height: 90vh;
   width: 100%;
-  display: none;
+  display: flex;
   align-items: center;
 }
 #login-image-container {
@@ -31,16 +31,15 @@
   max-width: 200px;
 }
 #login-authentication-bird-icon {
-  width: 100px;
-
-  max-width: 100px;
+  width: 20%;
+  height: 20%;
 
   padding-top: 60px;
 
-  margin-bottom: 10px;
+  margin-bottom: 10%;
 }
 #login-signup-btn {
-  width: 400px;
+  width: 70%;
   padding: 20px;
   border-radius: 30px;
   background-color: rgba(29, 161, 242, 1);
@@ -54,7 +53,7 @@
   opacity: 0.8;
 }
 #login-login-btn {
-  width: 400px;
+  width: 70%;
   padding: 20px;
   border-radius: 30px;
   font-size: 20px;
@@ -62,6 +61,7 @@
   border: solid 2px rgba(29, 161, 242, 1);
   color: rgba(29, 161, 242, 1);
   text-align: center;
+  display: block;
 }
 #login-login-btn:hover {
   background-color: lightblue;
@@ -73,7 +73,8 @@
   align-items: center;
   height: 5vh;
   width: 100%;
-  display: none;
+
+  /*display: none;*/
 
   list-style-type: none;
   line-height: 0.1;
@@ -105,7 +106,7 @@
 
 @media only screen and (max-width: 1271px) {
   #screen-not-available {
-    display: flex;
+    display: none;
   }
 }
 
@@ -115,6 +116,37 @@
   }
   .login-body {
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .login-body {
+    flex-direction: column-reverse;
+  }
+  #login-image-container {
+    height: 40%;
+    width: 100%;
+  }
+  #login-authentication {
+    justify-content: center;
+  }
+  #sign-login-btn-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  #login-signup-btn {
+    width: 45%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #login-login-btn {
+    width: 45%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

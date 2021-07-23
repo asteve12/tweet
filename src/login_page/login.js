@@ -70,17 +70,18 @@ function Login() {
 
           {/*text section*/}
           <div id='login-authentication-text'>
-            <h1 style={{ fontSize: '4em', lineHeight: '' }}>Happening Now</h1>
+            <h1 style={{ fontSize: '2em', lineHeight: '' }}>Happening Now</h1>
           </div>
+          <h1>Join twitter</h1>
           {/*login btn*/}
-          <div>
-            <h1>Join twitter</h1>
+          <div id='sign-login-btn-cont'>
             <div id='login-signup-btn' onClick={handleVisbilty}>
               signup
             </div>
             <br></br>
-            <Link to='/login'>
-              <div id='login-login-btn'>login</div>
+
+            <Link id='login-login-btn' to='/login'>
+              <div id=''>login</div>
             </Link>
           </div>
         </div>
