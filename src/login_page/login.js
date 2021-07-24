@@ -106,6 +106,7 @@ function Login() {
         <a href='#'>Settings</a>
       </div>
       {/*End of login footer*/}
+      <br></br>
       <div>
         <p
           style={{
