@@ -33,15 +33,17 @@ function Signup() {
         <form action=''>
           <div id='signin-wrapper'>
             {/************************username input*************************************/}
-            <div id='signin-input-username-container'>
-              <div id='overlay-text-container-username'>
-                <span>Phone Email Password</span>
+            <div id='username-wrapper'>
+              <div id='signin-input-username-container'>
+                <div id='overlay-text-container-username'>
+                  <span>Phone Email Password</span>
+                </div>
+                <input
+                  id='signin-input-username'
+                  type='text'
+                  placeholder='username'
+                />
               </div>
-              <input
-                id='signin-input-username'
-                type='text'
-                placeholder='username'
-              />
             </div>
             {/************************End of username input*************************************/}
             {/************************password input*************************************/}

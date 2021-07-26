@@ -19,24 +19,30 @@
   color: rgba(29, 161, 242, 1);
 }
 #signin-input-username {
-  width: 60%;
-  padding: 2%;
-  margin-bottom: 2%;
+  width: 300px;
+  padding-top: 15px;
+  margin-bottom: 10px;
 }
 #signin-input-password {
-  width: 60%;
-  padding: 2%;
+  width: 300px;
+  padding-top: 15px;
 }
+/*
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    /* justify-content: center;
+*/
 #button-container {
   display: flex;
-  width: 100%;
+  width: 300px;
 }
 
 #login-btn {
-  width: 60%;
-  max-width: 500px;
+  width: 300px;
 
-  padding: 3%;
+  padding: 10px;
   border-radius: 25px;
   border: 0px;
   background-color: rgba(29, 161, 242, 1);
@@ -60,4 +66,27 @@
   font-size: 0.8em;
   padding: 2%;
   padding-left: 15%;
+}
+
+@media only screen and (max-width: 529px) {
+  #login-content-box {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  #signin-input-username {
+    width: 90%;
+  }
+  #signin-input-password {
+    width: 90%;
+  }
+  #button-container {
+    width: 90%;
+  }
+  #login-btn {
+    width: 100%;
+  }
+  #signin-forgot-password-container {
+    width: 90%;
+  }
 }
