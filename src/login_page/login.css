@@ -168,7 +168,12 @@
 }
 @media only screen and (max-width: 350px) {
   #login-authentication {
-    height: 50vh;
+    height: 60vh;
+  }
+  .form-container {
+    border-radius: 0px;
+    height: 100vh;
+    padding-top: 2%;
   }
 }
 
